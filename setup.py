@@ -1,11 +1,11 @@
 from setuptools import find_packages, setup
-from olcommon.version import __version__
+from multi_validator.version import __version__
 
 setup(
-    name='multi-validator',
+    name='multi_validator',
     packages=find_packages(),
     version=__version__,
-    description='This will validate multiple data type, i.e. phone number, name, age, ',
+    description='This will validate multiple data type, i.e. phone number, email, name, age, weight, etc',
     author='Neel Ratan Guria',
     #install_requires=['mongoengine'],
     setup_requires=['pytest-runner'],
