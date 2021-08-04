@@ -1,5 +1,5 @@
 def short_phrase(text):
-    if not len(text) == 0:
+    if not len(text) > 2:
         return False
     return True
 
