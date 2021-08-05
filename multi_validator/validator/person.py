@@ -1,6 +1,3 @@
-import re
-
-
 def validate_name(name):
     if name.replace(" ", "").isalpha():
         return True
